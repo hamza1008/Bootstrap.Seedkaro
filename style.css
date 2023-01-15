@@ -1,34 +1,27 @@
-a{
-text-decoration: none;
-color: #000;
+.navbar {
+    border-bottom: 5px solid #6bc449;
 }
-a:hover{
-color: rgb(179, 179, 179);
+.home-header-text {
+    color: #6bc449;
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-top: 100px;
 }
-.site-header{
-border-bottom: 1px solid rgb(255, 205, 205);
-padding: .5em 1em;
-display: flex;
-justify-content: space-between;
-background-color: transparent;
+.home-info {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 450;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-.site-identity h1 { 
-font-size: 1.5em;
-margin: .6em 0;
-display: inline-block;
+.button {
+    background-color: #6bc449;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 30px;
+    border: 0;
 }
-.site-navigation ul,
-.site-navigation li{
-margin: 0;
-padding: 0;
-}
-.site-navigation li{
-display: inline-block;
-margin: 1.4em 1em 1em 1em;
-}
-h1,p,button,h2{
-    text-align: center;
-}
-button{
-    margin: 10px 100px 10px 500px;
+.feature-header h1 {
+    color: #6bc449;
 }

@@ -9,124 +9,178 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-    <section class="header-data">
-        <header class="site-header">
-        <div class="site-identity">
-            <h1> <a href="#">code with random</a></h1>
+    <div class="header-menu">
+        <nav class="navbar navbar-expand-lg m-2">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo-img" height="50px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Our Feature</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Testimonials</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                My Account
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="login.html">Log In</a></li>
+                                <li><a class="dropdown-item" href="signup.html">Sign Up</a></li>
+                            </ul>
+                    </li>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="home-display">
+        <div class="container">
+            <div class="row justify-content-centre">
+                <div class="col-lg-6 col-11">
+                    <h2 class="home-header-text">Your Gateway To <br>Alternative <br>Investments.</h2>
+                    <p class="home-info">Take Control With All-In-One Investment,Retirement <br>Checking And More.
+                    </p>
+                    <div class="home-btn my-3">
+                        <button type="button" class="button px-5 py-2 rounded-5">GET STARTED</button>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="images/mobile.jpg" alt="mobile_image">
+                </div>
+            </div>
         </div>
-        <nav class="site-navigation">
-            <ul class="nav">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>   
-        </header>
-    </section>
+    </div>
+
+    <div class="col-lg-12 col-11">
+        <div class="feature-header">
+            <h1 class="text-center font-weight-bold mt-3 text-capitalize">our features</h1>
+            <p class="text-center fs-3 text-capitalize">we make investing and fundraising easy</p>
+            <h3 class="text">For Investment</h3>
+        </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Access Highly Quality 'Sponsored' Startups</h5>
+              <p class="card-text">Our team works to origrate, curate and present disruptive and hyper growth ventures.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Gain Access To A New Age Asset Class</h5>
+              <p class="card-text">Diversity wealth viz Sr, asset class fundamental'y different from conventional real estate and preciouses.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Attend E-Pitch Nights</h5>
+              <p class="card-text">Our platform anows you access to e'evatcr pitches directly from our founders.</p>
+            </div>
+          </div>
+        </div>
+    </div>
+
     
-    <section class="container">
-        <div class="row">
-            <div class="col-lg-6 align">
-                <h1>Your Gateway To<br>Alternative<br>Investments</h1>
-                <p>Take Control In With All-In-One Investment, Retirement<br>Checking And More</p>
-                <button type="button" class="btn btn-success">GET STARTED</button>
-            </div>
-
-            <div class="col-lg-6">
-                <img src="images/ts-mobile-app_outdoor_3screens.jpg" alt="mobile" height="60%">
-            </div>
-
-            </div>
-    </section>
-
-    <section class="container">
         <div>
-            <h2>Our Feature<br>We Make Investing And Fundraising Easy</h2>
+            <h3 class="text">For Investment</h3>
         </div>
-    </section>
-
-    <section class="container">
-        <div>
-            <h3>For Investor</h3>
-        </div>
-    </section>
-    <br>
-    <section class="container">
-        <div class="row">
-        <div class="col-lg-4">
-            <div class="card mb-3">
-                <img src="images/crosshair.svg" class="card-img-top" alt="...">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Access Highly Quality<br>'Sponsored' Startups</h5>
-                  <p class="card-text">Our team works to orignate, curate<br>and present disruptive and hyper</p>
+                  <h5 class="card-title">Develop Well-Targeted Campaigns</h5>
+                  <p class="card-text">Develop campaigns with the support of our partners to have a high impact e-roadshow.</p>
                 </div>
+              </div>
             </div>
-        </div> 
-
-        <div class="col-lg-4">
-            <div class="card mb-3">
-                <img src="images/star (1).svg" class="card-img-top" alt="...">
+            <div class="col">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Access Highly Quality<br>'Sponsored' Startups</h5>
-                  <p class="card-text">Diversify wealth via an asset class<br>fundamentally different from<br>conventional real estate and<br>metals precious metals.</p>
+                  <h5 class="card-title">Connect With Investors Via "E-Roadshows"</h5>
+                  <p class="card-text">Our realtime chat platform helps you connect with investors quickly and engage in meaningful discussions.</p>
                 </div>
+              </div>
             </div>
-        </div>
-
-        <div class="col-lg-4">
-            <div class="card mb-3">
-                <img src="images/map.svg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Attend E-Pitch Nights</h5>
-                  <p class="card-text">Our platform allows you access to<br>elevator pitches directly from our<br>founders</p>
-                </div>
-            </div>
-        </div>
-        </div>
-    </section>
-
-
-    <section class="container">
-        <div>
-            <h3>For Founder</h3>
-        </div>
-    </section>
-    <br>
-    <section class="container">
-        <div class="row">
-        <div class="col-lg-4">
-            <div class="card mb-3">
-                <img src="images/crosshair.svg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Develop Well-Targeted<br>Campaigns</h5>
-                  <p class="card-text">Develop campaigns with the support<br>of our partners to have a high<br>impact e-roadshow.</p>
-                </div>
-            </div>
-        </div> 
-
-        <div class="col-lg-4">
-            <div class="card mb-3">
-                <img src="images/star (1).svg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Connect With Investors<br>Via "E-Roadshows"</h5>
-                  <p class="card-text">Our realtime chat platform helps you<br>connect with investors quickly and<br>engage in meaningful discussions.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-4">
-            <div class="card mb-3">
-                <img src="images/map.svg" class="card-img-top" alt="...">
+            <div class="col">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Track Your Funding</h5>
-                  <p class="card-text">Our platform helps you track<br>commitment(s) and complete<br>paperwork.</p>
+                  <p class="card-text">Our platform helps you track commitment(s) and complete paperwork.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="home-display">
+            <div class="container">
+                <div class="row justify-content-centre">
+                    <div class="col-lg-6 col-11">
+                        <h2 class="home-header-text">A Few Words About Us</h2>
+                        <p class="home-info">Seedkaro aims to act as a bridge that connects high quality founders with a previously untapped but extremely knowledgeable investor base. <br>
+
+                            With first hand experience, we have often noticed that founders who lack backing of a corporate sponsor or those who do not belong to an alumini network of an A-grade B-school often find it frustrating to gain access to equity funding. In similar vier, individual investors who have access to capital as well as experience to provide mentorship, are often not easily provided access to private equity as an asset class. <br>
+                            
+                            At seedkaro, our vision is to bridge this gap and connect passionate, top quality and credible founders with traditional but experienced and "Unbanked" investors. <br> We are fully aware of the time consuming nature of the fund raising process and aim to provide seedkaro as a unified integrated platform to manage the entire fund raising process in a safe, secure and seamless manner.
+                        </p>
+                        <div class="home-btn my-3">
+                            <button type="button" class="button px-5 py-2 rounded-5">GET STARTED</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <img class="img-fluid" src="images/aboutus.png" alt="mobile_image">
+                    </div>
                 </div>
             </div>
         </div>
-        </div>
-    </section>
 
+        <div class="home-display">
+            <div class="container">
+                <div class="row justify-content-centre">
+                    <div class="col-lg-6">
+                        <img class="img-fluid" src="images/ts-mobile-app_outdoor_3screens.jpg" alt="mobile_image">
+                    </div>
+                    <div class="col-lg-6 col-11">
+                        <h2 class="home-header-text">Earn Found Money</h2>
+                        <p class="home-info">Earn bonus investments when you shop with 350+ top
+                            brands.</p>
+                        <div class="home-btn my-3">
+                            <button type="button" class="button px-5 py-2 rounded-5">GET STARTED</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+                    <h1 class="row justify-content-center home-header-text">What Our Clients Say</h1>
+        </div>  
+                
+                
+    
+     
+      
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
